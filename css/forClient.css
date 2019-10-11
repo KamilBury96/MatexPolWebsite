@@ -1,0 +1,143 @@
+.ForClient {
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90vw;
+  margin: 20px auto;
+}
+
+.ForClient h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1C1C1C;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.ForClient p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 0px;
+  color: #9c9c9c;
+}
+
+.ForClient h4 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.ForClient .formforClient {
+  background-image: url(../images/clientForm.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 41, 63, 0.8);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  margin: 20px 0px;
+}
+
+.ForClient .formforClient form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.ForClient .formforClient form input {
+  height: 10%;
+  border: 0;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 5px;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  background-color: #F1F1F1;
+  border-radius: 8%;
+  font-size: 16px;
+}
+
+.ForClient .formforClient form .send {
+  border: 0px;
+  padding: 10px 0px 10px 5px;
+  background-color: #2196f3;
+  border-radius: 5%;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.ForClient .formforClient .descriptionFormClient h4 {
+  text-transform: uppercase;
+}
+
+.ForClient .formforClient .descriptionFormClient p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .ForClient {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1600px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ForClient h2 {
+    font-size: 48px;
+    margin: 50px 0px 30px 0px;
+  }
+  .ForClient .formforClient {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 15px;
+  }
+  .ForClient .formforClient form {
+    width: 30%;
+  }
+  .ForClient .descriptionClient, .ForClient .formforClient {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .ForClient .descriptionClient {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .ForClient .descriptionClient .containerInternational, .ForClient .descriptionClient .containerNational {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .ForClient .descriptionClient .containerInternational p, .ForClient .descriptionClient .containerNational p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .ForClient .descriptionClient p, .ForClient .descriptionClient h2, .ForClient .descriptionClient h4 {
+    width: 100%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=forClient.css.map */

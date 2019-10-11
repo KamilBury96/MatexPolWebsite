@@ -1,0 +1,96 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100vw;
+  padding: 20px 0px;
+  margin-top: 100px;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+footer i {
+  color: #2196f3;
+}
+
+footer .title {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  text-align: left;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: #2196f3;
+}
+
+footer .explore {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  footer .footerContainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .informations, footer .ouroffice, footer .explore {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+  footer .explore {
+    display: block;
+  }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: none;
+    border-bottom: 1px solid black;
+  }
+  footer ul li a {
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 15px 5px 0px;
+  }
+  footer ul li a:hover {
+    color: #2196f3;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,87 @@
+$blue:  #2196f3
+$darkGrey: #272727
+$lightGrey: rgb(176, 190, 197)
+$greyText: #9c9c9c
+.truckFleet
+    margin: 50px 0px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background-color: #eee
+    overflow-y: hidden
+    h2
+        text-align: center
+        font-size: 36px
+        color: #1C1C1C
+        text-transform: uppercase
+        font-family: 'Raleway', sans-serif
+        font-weight: 600
+        margin: 20px 0px
+    img
+        width: 90%
+        margin: 0 auto
+        background-size: cover
+        background-repeat: no-repeat
+    .imagescontainer
+        display: flex
+        justify-content: center
+    .onlydesktop
+        display: none
+    .tauntliner, .mega, .frigo
+        h4
+            font-size: 24px
+            font-family: 'Raleway', sans-serif
+            color: $blue
+            text-align: center
+        p
+            width: 90%
+            margin: 0 auto
+
+            font-size: 14px
+            font-family: 'Raleway', sans-serif
+            color: $greyText
+    .frigo
+        margin-bottom: 20px
+.trucksContainer
+    overflow-y: hidden
+@media (min-width: 1024px)
+    .truckFleet
+        h2
+            font-size: 48px
+            margin: 0px
+        .onlydesktop
+            display: block
+        .informationContainerFleet
+            width: 85vw
+            display: flex
+            margin: 0 auto
+            max-width: 1600px
+            overflow-y: hidden
+        .trucksContainer, .imagescontainer
+            flex-basis: 50%
+            overflow-y: hidden
+
+        .imagescontainer
+            display: flex
+            flex-wrap: wrap
+            img
+                flex-basis: 50%
+                height: 250px
+                object-fit: cover
+                &:nth-of-type(3),&:nth-of-type(4)
+                    border-top: 4px solid white
+                &:nth-of-type(1),&:nth-of-type(3)
+                    border-right: 4px solid white
+
+        .trucksContainer
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+
+        .frigo
+            margin-bottom: 0px
+        .tauntliner, .mega, .frigo
+            p
+                text-align: center
+            h4
+                margin-bottom: 5px

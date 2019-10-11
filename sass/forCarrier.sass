@@ -1,0 +1,79 @@
+$blue:  #2196f3
+$greyText: #9c9c9c
+.forCarrier
+    display: flex
+    flex-direction: column
+    width: 100vw
+    margin: 20px auto
+    background-color: #eee
+    padding: 50px 0px
+    h2
+        text-align: center
+        font-size: 36px
+        color: #1C1C1C
+        text-transform: uppercase
+        font-family: 'Raleway', sans-serif
+        font-weight: 600
+        margin: 20px 0px 45px 0px
+    p
+        text-align: center
+        font-size: 14px
+        font-family: 'Raleway', sans-serif
+        margin: 10px 0px
+        color: $greyText
+    h4
+        font-size: 24px
+        font-family: 'Raleway', sans-serif
+        color: $blue
+        text-align: center
+        margin: 10px 0px
+    i
+        font-size: 14px
+        color: $blue
+        margin-right: 5px
+    .descriptionCarrier
+        display: flex
+        flex-direction: column
+    .containerCarrierConditions
+        margin: 20px 0px
+    .containerforCarrier
+        width: 90vw
+        max-width: 1600px
+        margin: 0 auto
+    .carrierConditions
+        color: black
+        text-align: center
+        width: 90%
+        margin: 5px auto
+    form
+        margin: 0 auto
+        input
+            align-self: center
+            border: 1px solid white
+            padding: 10px 20px
+            background-color: $blue
+            border-radius: 5%
+            font-size: 15px
+            color: white
+            margin-top: 10px
+            transition: 0.5s
+    @media (min-width: 1024px)
+        .containerforCarrier
+            display: flex
+        .containerPicture
+            background-image: url(../images/image2.jpg)
+            background-position: center
+            background-size: cover
+            flex-basis: 50%
+        p
+            width: 70%
+            margin: 0 auto
+        form
+            margin-top: 15px
+            input
+                &:hover
+                    background-color: white
+                    border: 1px solid $blue
+                    color: $blue
+        h2
+            font-size: 48px

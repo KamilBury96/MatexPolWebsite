@@ -1,0 +1,82 @@
+.aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90vw;
+  margin: 20px auto;
+}
+
+.aboutUs h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1C1C1C;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.aboutUs .description1 {
+  margin-top: 40px;
+}
+
+.aboutUs p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 0px;
+  color: #9c9c9c;
+}
+
+.aboutUs h4 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #1C1C1C;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.aboutUs i {
+  font-size: 35px;
+  color: #2196f3;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .aboutUs h2 {
+    font-size: 48px;
+  }
+  .aboutUs .companyDesc {
+    width: 60%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 16px;
+  }
+  .aboutUs .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .aboutUs .description1 {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .aboutUs .description1 p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aboutUs .description1 i {
+    font-size: 60px;
+  }
+}
+/*# sourceMappingURL=aboutUs.css.map */

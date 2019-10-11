@@ -1,0 +1,134 @@
+.truckFleet {
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eee;
+  overflow-y: hidden;
+}
+
+.truckFleet h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1C1C1C;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.truckFleet img {
+  width: 90%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.truckFleet .imagescontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.truckFleet .onlydesktop {
+  display: none;
+}
+
+.truckFleet .tauntliner h4, .truckFleet .mega h4, .truckFleet .frigo h4 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  text-align: center;
+}
+
+.truckFleet .tauntliner p, .truckFleet .mega p, .truckFleet .frigo p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  color: #9c9c9c;
+}
+
+.truckFleet .frigo {
+  margin-bottom: 20px;
+}
+
+.trucksContainer {
+  overflow-y: hidden;
+}
+
+@media (min-width: 1024px) {
+  .truckFleet h2 {
+    font-size: 48px;
+    margin: 0px;
+  }
+  .truckFleet .onlydesktop {
+    display: block;
+  }
+  .truckFleet .informationContainerFleet {
+    width: 85vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    overflow-y: hidden;
+  }
+  .truckFleet .trucksContainer, .truckFleet .imagescontainer {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    overflow-y: hidden;
+  }
+  .truckFleet .imagescontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .truckFleet .imagescontainer img {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .truckFleet .imagescontainer img:nth-of-type(3), .truckFleet .imagescontainer img:nth-of-type(4) {
+    border-top: 4px solid white;
+  }
+  .truckFleet .imagescontainer img:nth-of-type(1), .truckFleet .imagescontainer img:nth-of-type(3) {
+    border-right: 4px solid white;
+  }
+  .truckFleet .trucksContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .truckFleet .frigo {
+    margin-bottom: 0px;
+  }
+  .truckFleet .tauntliner p, .truckFleet .mega p, .truckFleet .frigo p {
+    text-align: center;
+  }
+  .truckFleet .tauntliner h4, .truckFleet .mega h4, .truckFleet .frigo h4 {
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=truckFleet.css.map */

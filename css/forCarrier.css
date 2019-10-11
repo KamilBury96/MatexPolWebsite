@@ -1,0 +1,122 @@
+.forCarrier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 50px 0px;
+}
+
+.forCarrier h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1C1C1C;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 20px 0px 45px 0px;
+}
+
+.forCarrier p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 0px;
+  color: #9c9c9c;
+}
+
+.forCarrier h4 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.forCarrier i {
+  font-size: 14px;
+  color: #2196f3;
+  margin-right: 5px;
+}
+
+.forCarrier .descriptionCarrier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.forCarrier .containerCarrierConditions {
+  margin: 20px 0px;
+}
+
+.forCarrier .containerforCarrier {
+  width: 90vw;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.forCarrier .carrierConditions {
+  color: black;
+  text-align: center;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.forCarrier form {
+  margin: 0 auto;
+}
+
+.forCarrier form input {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid white;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  border-radius: 5%;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 1024px) {
+  .forCarrier .containerforCarrier {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .forCarrier .containerPicture {
+    background-image: url(../images/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .forCarrier p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .forCarrier form {
+    margin-top: 15px;
+  }
+  .forCarrier form input:hover {
+    background-color: white;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+  }
+  .forCarrier h2 {
+    font-size: 48px;
+  }
+}
+/*# sourceMappingURL=forCarrier.css.map */
